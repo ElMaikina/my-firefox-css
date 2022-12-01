@@ -1,0 +1,16 @@
+.tab-background {
+  border-radius: 0px !important;
+  margin-block: 1px 0 !important;
+}
+
+#TabsToolbar {
+  position: absolute !important;
+  width: 64px !important;
+  height: 28px;
+  min-height: 28px !important;
+  max-height: 28px !important;
+}
+
+.tabbrowser-tab[first-visible-tab] {
+  padding-inline-start: 6px !important;
+}
