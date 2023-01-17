@@ -1,16 +1,24 @@
 .tab-background {
   border-radius: 0px !important;
-  margin-block: 1px 0 !important;
-}
-
-#TabsToolbar {
-  position: absolute !important;
-  width: 64px !important;
-  height: 28px;
-  min-height: 28px !important;
-  max-height: 28px !important;
+  margin-block: 0px 0 !important;
 }
 
 .tabbrowser-tab[first-visible-tab] {
-  padding-inline-start: 6px !important;
+  padding-inline-start: 0px !important;
+}
+
+#nav-bar toolbarbutton { 
+  padding-left: 1px !important;  
+  padding-right: 1px !important;
+  margin-left: 1px !important; 
+  margin-right: 1px !important;  
+}
+
+:root {
+  --toolbarbutton-inner-padding:  2px !important;
+  --tab-toolbar-navbar-overlap:   0px !important;
+  --tab-min-height:               28px !important;
+  --tab-height:                   28px !important;
+  --tab-min-width:                28px !important;
+  --url-height:                   28px !important;
 }
